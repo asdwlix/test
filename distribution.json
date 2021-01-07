@@ -216,13 +216,13 @@
           ]
         },
         {
-          "id": "net.optifine:optifine:1.8.9_HD_U_L5@jar",
-          "name": "OptiFine 1.8.9_HD_U_L5",
+          "id": "net.optifine:optifine:1.8.9_HD_U_I7@jar",
+          "name": "OptiFine 1.8.9_HD_U_I7",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2517183,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/OptiFine_1.8.9_HD_U_L5.jar",
-            "MD5": "2332fcdb59ca0e4ee79cddf8fe114d25"
+            "size": 2016181,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/OptiFine_1.8.9_HD_U_I7.jar",
+            "MD5": "3fe9651067eb2530bec631af15c8e1ac"
           }
         }
       ]
