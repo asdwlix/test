@@ -225,7 +225,7 @@
             "MD5": "3fe9651067eb2530bec631af15c8e1ac"
           },
           "required": {
-            "value": true
+            "value": false
           }
         },
         {
