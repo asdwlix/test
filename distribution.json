@@ -8,19 +8,19 @@
   },
   "servers": [
     {
-      "id": "reborncraft1-1.8.9",
-      "name": "reborncraft1 (Minecraft 1.8.9)",
-      "description": "reborncraft1 Running Minecraft 1.8.9 (Forge v11.15.1.2318)",
-      "icon": null,
+      "id": "RebornCraft-1.8.9",
+      "name": "RebornCraft (Minecraft 1.8.9)",
+      "description": "Minecraft 1.8.9 sürümü (FPS BOOST!)",
+      "icon": "https://cdn.discordapp.com/attachments/703618202332168202/796060526555299900/esfesf.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "play.reborncraft.pw",
       "minecraftVersion": "1.8.9",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -292,7 +292,7 @@
             "size": 81298,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/Keystrokes-8.0.2%20(1.8.9).jar",
             "MD5": "1bc350deebbabd334cb65baad90d101f",
-            "path": "Keystrokes-8.0.2 (1.8.9).jar"
+            "path": "mods/Keystrokes-8.0.2 (1.8.9).jar"
           }
         },
         {
@@ -314,7 +314,7 @@
             "size": 2945035,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/customdiscordrpc-2.21-[1.8,1.8.9].jar",
             "MD5": "1bee567fd84b54fc88eb01734c8aedcd",
-            "path": "customdiscordrpc-2.21-[1.8,1.8.9].jar"
+            "path": "mods/customdiscordrpc-2.21-[1.8,1.8.9].jar"
           }
         },
         {
@@ -325,7 +325,7 @@
             "size": 5244,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/discordRPconfig.json",
             "MD5": "4fae6ff82c2764ee127572129527d01b",
-            "path": "discordRPconfig.json"
+            "path": "config/discordRPconfig.json"
           }
         },
         {
