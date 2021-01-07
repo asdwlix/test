@@ -221,11 +221,31 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2016181,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/OptiFine_1.8.9_HD_U_I7.jar",
+            "MD5": "3fe9651067eb2530bec631af15c8e1ac"
+          }
+        },
+        {
+          "id": "generated.forgemod:optifine:1.8.9_HD_U_I7@jar",
+          "name": "OptiFine 1.8.9_HD_U_I7",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2016181,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/OptiFine_1.8.9_HD_U_I7.jar",
             "MD5": "3fe9651067eb2530bec631af15c8e1ac"
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "generated.library:OptiFine_1.8.9_HD_U_I7:0.0.0@jar",
+          "name": "OptiFine_1.8.9_HD_U_I7",
+          "type": "Library",
+          "artifact": {
+            "size": 2016181,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/libraries/OptiFine_1.8.9_HD_U_I7.jar",
+            "MD5": "3fe9651067eb2530bec631af15c8e1ac"
           }
         },
         {
@@ -237,6 +257,28 @@
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/OptiFine_1.8.9_HD_U_I7.jar",
             "MD5": "3fe9651067eb2530bec631af15c8e1ac",
             "path": "OptiFine_1.8.9_HD_U_I7.jar"
+          }
+        },
+        {
+          "id": "customdiscordrpc-2.21-[1.8,1.8.9].jar",
+          "name": "customdiscordrpc-2.21-[1.8,1.8.9].jar",
+          "type": "File",
+          "artifact": {
+            "size": 2945035,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/customdiscordrpc-2.21-[1.8,1.8.9].jar",
+            "MD5": "1bee567fd84b54fc88eb01734c8aedcd",
+            "path": "customdiscordrpc-2.21-[1.8,1.8.9].jar"
+          }
+        },
+        {
+          "id": "discordRPconfig.json",
+          "name": "discordRPconfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 5244,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/discordRPconfig.json",
+            "MD5": "4fae6ff82c2764ee127572129527d01b",
+            "path": "discordRPconfig.json"
           }
         }
       ]

@@ -1,0 +1,108 @@
+{
+  "Discord APP ID": "794739965636378654",
+  "Rich Presence Profiles": {
+    "default": {
+      "Activation Event": "JUST_STARTED",
+      "Game State": "Just Started",
+      "Details": "Minecraft yükleniyor",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.getUserName();RichPresence.state +\u003d \u0027 Minecraft v\u0027+Helper.cancellUpdateIfMatch(Helper.getMCVERSION(),null);"
+    },
+    "preInit": {
+      "Activation Event": "PRE_INIT",
+      "Game State": "Dosyalar çıkarılıyor",
+      "Details": "Minecraft yükleniyor",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "init": {
+      "Activation Event": "INIT",
+      "Game State": "Dosyalar çıkarılıyor",
+      "Details": "Minecraft yükleniyor",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "postInit": {
+      "Activation Event": "POST_INIT",
+      "Game State": "Dosyalar çıkarıldı",
+      "Details": "Minecraft yükleniyor",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
+    },
+    "mainMenu": {
+      "Activation Event": "MAIN_MENU_REACHED",
+      "Game State": "Ana Sayfa'da",
+      "Details": "Ana Sayfa'da",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);RichPresence.details \u003d \u0027\u0027+Helper.cancellUpdateIfMatch(Helper.getUserName(),null)+\u0027\u0027;"
+    },
+    "serverAboutToStart": {
+      "Activation Event": "SERVER_ABOUT_TO_START",
+      "Game State": "Tek kişilik oynuyor",
+      "Details": "Tek kişilikli oynuyor",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);RichPresence.details \u003d \u0027Dünya yükleniyor \\\u0027\u0027+Helper.cancellUpdateIfMatch(Helper.getWorldName(),null)+\u0027\\\u0027\u0027;"
+    },
+    "serverStarted": {
+      "Activation Event": "SERVER_STARTED",
+      "Game State": "Oyunda",
+      "Details": "Tek kişilik oynuyor",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);RichPresence.details \u003d \u0027Oynuyor: \\\u0027\u0027+Helper.cancellUpdateIfMatch(Helper.getDimensionName(),null)+\u0027\\\u0027\u0027;RichPresence.state +\u003d \u0027(\u0027+Helper.cancellUpdateIfMatch(Helper.getWorldName(),null)+\u0027)\u0027"
+    },
+    "connectedToMultiplayerServer": {
+      "Activation Event": "CONNECTED_TO_MULTIPLAYER_SERVER",
+      "Game State": "play.reborncraft.pw",
+      "Details": "Oynuyor",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.getUserName();RichPresence.state +\u003d \u0027 RebornCraft'da oynuyor;"
+    },
+    "disconnectedFromMultiplayerServer": {
+      "Activation Event": "DISCONNECTED_FROM_MULTIPLAYER_SERVER",
+      "Game State": "Sunucu Seçiminde",
+      "Details": "Şu an aktif",
+      "Start Time Delay": 0,
+      "Big Image Key": "logo",
+      "Big Image Hover Text": "play.reborncraft.pw",
+      "Small Image Key": "logo",
+      "Small Image Hover Text": "play.reborncraft.pw",
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);if(serverName!\u003dundefined) RichPresence.details +\u003d \u0027 @\u0027+serverName;"
+    }
+  },
+  "Advanced Config": {
+    "Treat First Post-Load Screen As Main-Menu": true,
+    "Update Interval Millis": 2000
+  }
+}
