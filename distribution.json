@@ -239,29 +239,6 @@
           }
         },
         {
-          "id": "keystrokes:keystrokesmod:8.0.2@jar",
-          "name": "KeystrokesMod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 81298,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/Keystrokes-8.0.2%20(1.8.9).jar",
-            "MD5": "1bc350deebbabd334cb65baad90d101f"
-          }
-        },
-        {
-          "id": "keystrokes:keystrokesmod:8.0.2@jar",
-          "name": "KeystrokesMod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 81298,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/Keystrokes-8.0.2%20(1.8.9).jar",
-            "MD5": "1bc350deebbabd334cb65baad90d101f"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "net.optifine:optifine:1.8.9_HD_U_I7@jar",
           "name": "OptiFine 1.8.9_HD_U_I7",
           "type": "ForgeMod",
@@ -282,17 +259,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "Keystrokes-8.0.2 (1.8.9).jar",
-          "name": "Keystrokes-8.0.2 (1.8.9).jar",
-          "type": "File",
-          "artifact": {
-            "size": 81298,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/Keystrokes-8.0.2%20(1.8.9).jar",
-            "MD5": "1bc350deebbabd334cb65baad90d101f",
-            "path": "mods/Keystrokes-8.0.2 (1.8.9).jar"
           }
         },
         {
