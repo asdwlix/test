@@ -216,6 +216,29 @@
           ]
         },
         {
+          "id": "generated.forgemod:customdiscordrpc:2.21-[1.8,1.8.9]@jar",
+          "name": "Custom Discord RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2945035,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/customdiscordrpc-2.21-[1.8,1.8.9].jar",
+            "MD5": "1bee567fd84b54fc88eb01734c8aedcd"
+          }
+        },
+        {
+          "id": "generated.forgemod:customdiscordrpc:2.21-[1.8,1.8.9]@jar",
+          "name": "Custom Discord RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2945035,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/customdiscordrpc-2.21-[1.8,1.8.9].jar",
+            "MD5": "1bee567fd84b54fc88eb01734c8aedcd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "net.optifine:optifine:1.8.9_HD_U_I7@jar",
           "name": "OptiFine 1.8.9_HD_U_I7",
           "type": "ForgeMod",
@@ -239,16 +262,6 @@
           }
         },
         {
-          "id": "generated.library:OptiFine_1.8.9_HD_U_I7:0.0.0@jar",
-          "name": "OptiFine_1.8.9_HD_U_I7",
-          "type": "Library",
-          "artifact": {
-            "size": 2016181,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/libraries/OptiFine_1.8.9_HD_U_I7.jar",
-            "MD5": "3fe9651067eb2530bec631af15c8e1ac"
-          }
-        },
-        {
           "id": "OptiFine_1.8.9_HD_U_I7.jar",
           "name": "OptiFine_1.8.9_HD_U_I7.jar",
           "type": "File",
@@ -256,7 +269,7 @@
             "size": 2016181,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/OptiFine_1.8.9_HD_U_I7.jar",
             "MD5": "3fe9651067eb2530bec631af15c8e1ac",
-            "path": "mods/OptiFine_1.8.9_HD_U_I7.jar"
+            "path": "OptiFine_1.8.9_HD_U_I7.jar"
           }
         },
         {
