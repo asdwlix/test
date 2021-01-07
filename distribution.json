@@ -9,11 +9,11 @@
   "servers": [
     {
       "id": "reborncraft1-1.8.9",
-      "name": "RebornCraft (1.8.9)",
-      "description": "play.reborncraft.pw - 1.8.9_SHADER_ULTRA",
+      "name": "reborncraft1 (Minecraft 1.8.9)",
+      "description": "reborncraft1 Running Minecraft 1.8.9 (Forge v11.15.1.2318)",
       "icon": null,
       "version": "1.0.0",
-      "address": "play.reborncraft.pw",
+      "address": "localhost:25565",
       "minecraftVersion": "1.8.9",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -223,6 +223,19 @@
             "size": 2016181,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/OptiFine_1.8.9_HD_U_I7.jar",
             "MD5": "3fe9651067eb2530bec631af15c8e1ac"
+          }
+        },
+        {
+          "id": "generated.forgemod:optifine:1.8.9_HD_U_I7@jar",
+          "name": "OptiFine 1.8.9_HD_U_I7",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2016181,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/OptiFine_1.8.9_HD_U_I7.jar",
+            "MD5": "3fe9651067eb2530bec631af15c8e1ac"
+          },
+          "required": {
+            "value": false
           }
         }
       ]
