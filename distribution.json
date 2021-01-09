@@ -340,17 +340,6 @@
             "MD5": "ca3cdce30bf731bbe34811ad0cc56cea",
             "path": "mods/OptiFine_1.16.4_HD_U_G5.jar"
           }
-        },
-        {
-          "id": "sodium-fabric-mc1.16.3-0.1.0.jar",
-          "name": "sodium-fabric-mc1.16.3-0.1.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 418984,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/sodium-fabric-mc1.16.3-0.1.0.jar",
-            "MD5": "12fe6974813ae5d514af57c3ac679966",
-            "path": "mods/sodium-fabric-mc1.16.3-0.1.0.jar"
-          }
         }
       ]
     },
