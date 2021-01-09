@@ -321,27 +321,6 @@
           ]
         },
         {
-          "id": "tfar.darkerloadingscreen:darkerloadingscreen:2.2@jar",
-          "name": "Darker Loading Screen",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 9774,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/darkerloadingscreen-2.2.jar",
-            "MD5": "c9943a3bef3d9b6475ba868f1cf9f91b"
-          }
-        },
-        {
-          "id": "darkerloadingscreen-2.2.jar",
-          "name": "darkerloadingscreen-2.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 9774,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/darkerloadingscreen-2.2.jar",
-            "MD5": "c9943a3bef3d9b6475ba868f1cf9f91b",
-            "path": "mods/darkerloadingscreen-2.2.jar"
-          }
-        },
-        {
           "id": "sodium-fabric-mc1.16.3-0.1.0.jar",
           "name": "sodium-fabric-mc1.16.3-0.1.0.jar",
           "type": "File",
