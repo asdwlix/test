@@ -9,11 +9,11 @@
   "servers": [
     {
       "id": "reborncraft1-1.8.9",
-      "name": "reborncraft1 (Minecraft 1.8.9)",
+      "name": "geldimi poyraz",
       "description": "reborncraft1 Running Minecraft 1.8.9 (Forge v11.15.1.2318)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "play.reborncraft.pw",
       "minecraftVersion": "1.8.9",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
