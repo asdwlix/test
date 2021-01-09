@@ -8,19 +8,19 @@
   },
   "servers": [
     {
-      "id": "RebornCraft-1.8.9",
-      "name": "RebornCraft (Minecraft 1.8.9)",
-      "description": "Minecraft 1.8.9 sürümü (FPS BOOST!)",
-      "icon": "https://cdn.discordapp.com/attachments/703618202332168202/796060526555299900/esfesf.png",
+      "id": "reborncraft1-1.8.9",
+      "name": "reborncraft1 (Minecraft 1.8.9)",
+      "description": "reborncraft1 Running Minecraft 1.8.9 (Forge v11.15.1.2318)",
+      "icon": null,
       "version": "1.0.0",
-      "address": "play.reborncraft.pw",
+      "address": "localhost:25565",
       "minecraftVersion": "1.8.9",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -249,6 +249,19 @@
           }
         },
         {
+          "id": "keystrokes:keystrokesmod:8.0.2@jar",
+          "name": "KeystrokesMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 81298,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/Keystrokes-8.0.2%20(1.8.9).jar",
+            "MD5": "1bc350deebbabd334cb65baad90d101f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "net.optifine:optifine:1.8.9_HD_U_I7@jar",
           "name": "OptiFine 1.8.9_HD_U_I7",
           "type": "ForgeMod",
@@ -293,6 +306,17 @@
           }
         },
         {
+          "id": "CustomMainMenu-MC1.8.9-2.0.jar",
+          "name": "CustomMainMenu-MC1.8.9-2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 169801,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/CustomMainMenu-MC1.8.9-2.0.jar",
+            "MD5": "b0598d43b7b7474ee05ef5af10924b68",
+            "path": "mods/CustomMainMenu-MC1.8.9-2.0.jar"
+          }
+        },
+        {
           "id": "OptiFine_1.8.9_HD_U_I7.jar",
           "name": "OptiFine_1.8.9_HD_U_I7.jar",
           "type": "File",
@@ -330,9 +354,9 @@
           "name": "discordRPconfig.json",
           "type": "File",
           "artifact": {
-            "size": 5244,
+            "size": 5330,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/discordRPconfig.json",
-            "MD5": "4fae6ff82c2764ee127572129527d01b",
+            "MD5": "bfe64df392871dac87fb50ce13a6e9e3",
             "path": "config/discordRPconfig.json"
           }
         },
