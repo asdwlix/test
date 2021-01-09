@@ -87,7 +87,7 @@
       "Big Image Hover Text": "play.reborncraft.pw",
       "Small Image Key": "logo",
       "Small Image Hover Text": "play.reborncraft.pw",
-      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.getUserName();RichPresence.state +\u003d \u0027 RebornCraft'da oynuyor;"
+      "Modification JavaScript": "RichPresence.smallImageText \u003d Helper.cancellUpdateIfMatch(Helper.getUserName(),null);"
     },
     "disconnectedFromMultiplayerServer": {
       "Activation Event": "DISCONNECTED_FROM_MULTIPLAYER_SERVER",
