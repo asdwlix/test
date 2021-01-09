@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///C:/test/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Minecraft 1.16.4",
+    "description": "En iyi optimizasyonlu 1.16.4 sürümü!",
+    "address": "play.reborncraft.pw",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "35.1.36"
+  },
+  "untrackedFiles": []
+}

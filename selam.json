@@ -1,0 +1,823 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "RebornCraft4-1.16.4",
+      "name": "Minecraft 1.16.4",
+      "description": "En iyi optimizasyonlu 1.16.4 sürümü!",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "play.reborncraft.pw",
+      "minecraftVersion": "1.16.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.4-35.1.36",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 210082,
+            "MD5": "a19a79e7a4decc6059a95e8f687aaff7",
+            "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/forge/1.16.4-35.1.36/forge-1.16.4-35.1.36.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.4-35.1.36",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11933,
+                "MD5": "49252263e872cb40ffe9e4c8c54ef6ff",
+                "url": "https://github.com/Alperino/test/raw/main/repo/versions/1.16.4-forge-35.1.36/1.16.4-forge-35.1.36.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.4-35.1.36:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2326427,
+                "MD5": "57f2260252d58907bf88bd26104f1043",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/forge/1.16.4-35.1.36/forge-1.16.4-35.1.36-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.4-35.1.36:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4089407,
+                "MD5": "f0d9dfc6228ddcefb35ca931a9f3a92a",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/forge/1.16.4-35.1.36/forge-1.16.4-35.1.36-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.4-20201102.104115:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352363,
+                "MD5": "3616324853bb2b635adccea1def54e53",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.4-20201102.104115:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118628,
+                "MD5": "402c17481afa2f07a76cc90341730feb",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.4-20201102.104115:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8427976,
+                "MD5": "61ad6e5220c9da62f098d6decd638001",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:7.2",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 114873,
+                "MD5": "26cf10dfd4729fd22fcae0694e041167",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/ow2/asm/asm/7.2/asm-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:7.2",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 70051,
+                "MD5": "321121317a6c6221cc26e8f9ee97022f",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/ow2/asm/asm-commons/7.2/asm-commons-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:7.2",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 50283,
+                "MD5": "c7214695c379f25861500e576a1f8cea",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/ow2/asm/asm-tree/7.2/asm-tree-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:7.2",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 80707,
+                "MD5": "0891d2562ab1db2a1d5fc013af9b40c5",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/ow2/asm/asm-util/7.2/asm-util-7.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:7.2",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33444,
+                "MD5": "e0aa4ec0cfa837415818aac762ed5dc2",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/ow2/asm/asm-analysis/7.2/asm-analysis-7.2.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.0.6",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126111,
+                "MD5": "69afb8c6a9b2e6e0f1df0ee4069fa119",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/cpw/mods/modlauncher/8.0.6/modlauncher-8.0.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.0",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 1921,
+                "MD5": "c5c05d52fcef5479e0ea069f30c6ceb5",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:2.2.0-shadowed",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 445030,
+                "MD5": "6ee328e0eda1765b17fb842135d3194b",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/accesstransformers/2.2.0/accesstransformers-2.2.0-shadowed.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:3.0.5-service",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 40979,
+                "MD5": "e6f00d34a82bd71ca95af9dd02194997",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/eventbus/3.0.5/eventbus-3.0.5-service.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:3.0.0",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 21803,
+                "MD5": "9b0b4d1d8b5815d3f693ac82d4128f13",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/coremods/3.0.0/coremods-3.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.2",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "243fc0b7f1e509aaca3550c14d8f60af",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/com/electronwill/night-config/core/3.6.2/core-3.6.2.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.2",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31152,
+                "MD5": "7b2339065e252b1c187d39351d84a09f",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/com/electronwill/night-config/toml/3.6.2/toml-3.6.2.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.0",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 55051,
+                "MD5": "89e95013b11f347e48c0525965600404",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.11.2",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 266283,
+                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.11.2",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1629585,
+                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.2",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 935252,
+                "MD5": "1f0c4faa50360623e49b9c2522edc602",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "tfar.darkerloadingscreen:darkerloadingscreen:2.2@jar",
+          "name": "Darker Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9774,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/darkerloadingscreen-2.2.jar",
+            "MD5": "c9943a3bef3d9b6475ba868f1cf9f91b"
+          }
+        },
+        {
+          "id": "darkerloadingscreen-2.2.jar",
+          "name": "darkerloadingscreen-2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9774,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/darkerloadingscreen-2.2.jar",
+            "MD5": "c9943a3bef3d9b6475ba868f1cf9f91b",
+            "path": "mods/darkerloadingscreen-2.2.jar"
+          }
+        },
+        {
+          "id": "sodium-fabric-mc1.16.3-0.1.0.jar",
+          "name": "sodium-fabric-mc1.16.3-0.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 418984,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/sodium-fabric-mc1.16.3-0.1.0.jar",
+            "MD5": "12fe6974813ae5d514af57c3ac679966",
+            "path": "mods/sodium-fabric-mc1.16.3-0.1.0.jar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reborncraft1-1.8.9",
+      "name": "Minecraft 1.8.9 (FPS Arttırıcı)",
+      "description": "Sizler için en iyi optimizasyonu bulduk!",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "play.reborncraft.pw",
+      "minecraftVersion": "1.8.9",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 3805686,
+            "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
+            "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "jline:jline:2.13@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 248566,
+                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/jline/jline/2.13/jline-2.13.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25364,
+                "MD5": "c7d01e5a88182df7f22b7418abb51085",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206574,
+                "MD5": "daecef8fab296b764a8fb41fc07f2428",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.6@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 62477,
+                "MD5": "13560a58a79b46b82057686543e8d727",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:customdiscordrpc:2.21-[1.8,1.8.9]@jar",
+          "name": "Custom Discord RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2945035,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/customdiscordrpc-2.21-[1.8,1.8.9].jar",
+            "MD5": "1bee567fd84b54fc88eb01734c8aedcd"
+          }
+        },
+        {
+          "id": "generated.forgemod:customdiscordrpc:2.21-[1.8,1.8.9]@jar",
+          "name": "Custom Discord RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2945035,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/customdiscordrpc-2.21-[1.8,1.8.9].jar",
+            "MD5": "1bee567fd84b54fc88eb01734c8aedcd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lumien.custommainmenu:CustomMainMenu:2.0@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169801,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/CustomMainMenu-MC1.8.9-2.0.jar",
+            "MD5": "b0598d43b7b7474ee05ef5af10924b68"
+          }
+        },
+        {
+          "id": "keystrokes:keystrokesmod:8.0.2@jar",
+          "name": "KeystrokesMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 81298,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/Keystrokes-8.0.2%20(1.8.9).jar",
+            "MD5": "1bc350deebbabd334cb65baad90d101f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.8.9_HD_U_I7@jar",
+          "name": "OptiFine 1.8.9_HD_U_I7",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2016181,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/OptiFine_1.8.9_HD_U_I7.jar",
+            "MD5": "3fe9651067eb2530bec631af15c8e1ac"
+          }
+        },
+        {
+          "id": "generated.forgemod:optifine:1.8.9_HD_U_I7@jar",
+          "name": "OptiFine 1.8.9_HD_U_I7",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2016181,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/OptiFine_1.8.9_HD_U_I7.jar",
+            "MD5": "3fe9651067eb2530bec631af15c8e1ac"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lumien.resourceloader:ResourceLoader:1.4@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11860,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/ResourceLoader-MC1.8.8-1.4.jar",
+            "MD5": "75bd3853d217b16c2b87a4dfe9e67994"
+          }
+        },
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 3063,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/CustomMainMenu/mainmenu.json",
+            "MD5": "72a16d8534b4d3700710560c654558ed",
+            "path": "CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "CustomMainMenu-MC1.8.9-2.0.jar",
+          "name": "CustomMainMenu-MC1.8.9-2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 169801,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/CustomMainMenu-MC1.8.9-2.0.jar",
+            "MD5": "b0598d43b7b7474ee05ef5af10924b68",
+            "path": "CustomMainMenu-MC1.8.9-2.0.jar"
+          }
+        },
+        {
+          "id": "OptiFine_1.8.9_HD_U_I7.jar",
+          "name": "OptiFine_1.8.9_HD_U_I7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2016181,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/OptiFine_1.8.9_HD_U_I7.jar",
+            "MD5": "3fe9651067eb2530bec631af15c8e1ac",
+            "path": "OptiFine_1.8.9_HD_U_I7.jar"
+          }
+        },
+        {
+          "id": "ResourceLoader-MC1.8.8-1.4.jar",
+          "name": "ResourceLoader-MC1.8.8-1.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11860,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/ResourceLoader-MC1.8.8-1.4.jar",
+            "MD5": "75bd3853d217b16c2b87a4dfe9e67994",
+            "path": "ResourceLoader-MC1.8.8-1.4.jar"
+          }
+        },
+        {
+          "id": "customdiscordrpc-2.21-[1.8,1.8.9].jar",
+          "name": "customdiscordrpc-2.21-[1.8,1.8.9].jar",
+          "type": "File",
+          "artifact": {
+            "size": 2945035,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/customdiscordrpc-2.21-[1.8,1.8.9].jar",
+            "MD5": "1bee567fd84b54fc88eb01734c8aedcd",
+            "path": "customdiscordrpc-2.21-[1.8,1.8.9].jar"
+          }
+        },
+        {
+          "id": "discordRPconfig.json",
+          "name": "discordRPconfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 5330,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/discordRPconfig.json",
+            "MD5": "bfe64df392871dac87fb50ce13a6e9e3",
+            "path": "discordRPconfig.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2317,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/options.txt",
+            "MD5": "b0ff0c42655a80ad9d6beebc6bcba824",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1280,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/optionsof.txt",
+            "MD5": "27d78d6fcd33dccc8e4fcf441eb95dee",
+            "path": "optionsof.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 14,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/optionsshaders.txt",
+            "MD5": "dcfc2b5a88fc12846ab45dd58367551e",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "3.png",
+          "name": "3.png",
+          "type": "File",
+          "artifact": {
+            "size": 5900,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/3.png",
+            "MD5": "b407a7ed8d371ef85b0e12142a24587d",
+            "path": "resources/ben/3.png"
+          }
+        },
+        {
+          "id": "Logo.png",
+          "name": "Logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 62222,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/Logo.png",
+            "MD5": "175cfff6973e9adc808f0988397bd777",
+            "path": "resources/ben/Logo.png"
+          }
+        },
+        {
+          "id": "indir.png",
+          "name": "indir.png",
+          "type": "File",
+          "artifact": {
+            "size": 678,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/indir.png",
+            "MD5": "d32baabab2d35088cfa984ad4d81f67d",
+            "path": "resources/ben/indir.png"
+          }
+        },
+        {
+          "id": "splashes.txt",
+          "name": "splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/splashes.txt",
+            "MD5": "c12e01f2a13ff5587e1e9e4aedb8242d",
+            "path": "resources/ben/splashes.txt"
+          }
+        },
+        {
+          "id": "Logo.png",
+          "name": "Logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 62222,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/cmm/Logo.png",
+            "MD5": "175cfff6973e9adc808f0988397bd777",
+            "path": "resources/cmm/Logo.png"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 10375,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/servers.dat",
+            "MD5": "cb67d407eae2297a13bd4e4aa6567745",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "artifact": {
+            "size": 417,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/splash.properties",
+            "MD5": "f257614bb18265708b2ab0328d69cb84",
+            "path": "splash.properties"
+          }
+        }
+      ]
+    }
+  ]
+}

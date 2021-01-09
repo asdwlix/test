@@ -2,9 +2,9 @@
   "$schema": "file:///C:/test/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "reborncraft1 (Minecraft 1.8.9)",
-    "description": "reborncraft1 Running Minecraft 1.8.9 (Forge v11.15.1.2318)",
-    "address": "localhost:25565",
+    "name": "Minecraft 1.8.9 (FPS Arttırıcı)",
+    "description": "Sizler için en iyi optimizasyonu bulduk!",
+    "address": "play.reborncraft.pw",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
