@@ -239,26 +239,13 @@
           }
         },
         {
-          "id": "keystrokes:keystrokesmod:8.0.2@jar",
-          "name": "KeystrokesMod",
+          "id": "lumien.custommainmenu:CustomMainMenu:2.0@jar",
+          "name": "Custom Main Menu",
           "type": "ForgeMod",
           "artifact": {
-            "size": 81298,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/Keystrokes-8.0.2%20(1.8.9).jar",
-            "MD5": "1bc350deebbabd334cb65baad90d101f"
-          }
-        },
-        {
-          "id": "keystrokes:keystrokesmod:8.0.2@jar",
-          "name": "KeystrokesMod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 81298,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/optionalon/Keystrokes-8.0.2%20(1.8.9).jar",
-            "MD5": "1bc350deebbabd334cb65baad90d101f"
-          },
-          "required": {
-            "value": false
+            "size": 169801,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/CustomMainMenu-MC1.8.9-2.0.jar",
+            "MD5": "b0598d43b7b7474ee05ef5af10924b68"
           }
         },
         {
@@ -285,14 +272,24 @@
           }
         },
         {
-          "id": "Keystrokes-8.0.2 (1.8.9).jar",
-          "name": "Keystrokes-8.0.2 (1.8.9).jar",
+          "id": "lumien.resourceloader:ResourceLoader:1.4@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11860,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/forgemods/required/ResourceLoader-MC1.8.8-1.4.jar",
+            "MD5": "75bd3853d217b16c2b87a4dfe9e67994"
+          }
+        },
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
           "type": "File",
           "artifact": {
-            "size": 81298,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/Keystrokes-8.0.2%20(1.8.9).jar",
-            "MD5": "1bc350deebbabd334cb65baad90d101f",
-            "path": "Keystrokes-8.0.2 (1.8.9).jar"
+            "size": 3063,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/CustomMainMenu/mainmenu.json",
+            "MD5": "72a16d8534b4d3700710560c654558ed",
+            "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
         {
@@ -307,6 +304,17 @@
           }
         },
         {
+          "id": "ResourceLoader-MC1.8.8-1.4.jar",
+          "name": "ResourceLoader-MC1.8.8-1.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11860,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/ResourceLoader-MC1.8.8-1.4.jar",
+            "MD5": "75bd3853d217b16c2b87a4dfe9e67994",
+            "path": "mods/ResourceLoader-MC1.8.8-1.4.jar"
+          }
+        },
+        {
           "id": "customdiscordrpc-2.21-[1.8,1.8.9].jar",
           "name": "customdiscordrpc-2.21-[1.8,1.8.9].jar",
           "type": "File",
@@ -314,7 +322,7 @@
             "size": 2945035,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/customdiscordrpc-2.21-[1.8,1.8.9].jar",
             "MD5": "1bee567fd84b54fc88eb01734c8aedcd",
-            "path": "customdiscordrpc-2.21-[1.8,1.8.9].jar"
+            "path": "mods/customdiscordrpc-2.21-[1.8,1.8.9].jar"
           }
         },
         {
@@ -325,7 +333,7 @@
             "size": 5244,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/discordRPconfig.json",
             "MD5": "4fae6ff82c2764ee127572129527d01b",
-            "path": "discordRPconfig.json"
+            "path": "config/discordRPconfig.json"
           }
         },
         {
@@ -333,10 +341,87 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2316,
+            "size": 2442,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/options.txt",
-            "MD5": "3295b9500b2e1d539e13f89b5e5f96c5",
+            "MD5": "6482d2e972e9296a7dfd580ff6b63464",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1280,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/optionsof.txt",
+            "MD5": "27d78d6fcd33dccc8e4fcf441eb95dee",
+            "path": "optionsof.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 14,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/optionsshaders.txt",
+            "MD5": "dcfc2b5a88fc12846ab45dd58367551e",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "3.png",
+          "name": "3.png",
+          "type": "File",
+          "artifact": {
+            "size": 5900,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/3.png",
+            "MD5": "b407a7ed8d371ef85b0e12142a24587d",
+            "path": "resources/ben/3.png"
+          }
+        },
+        {
+          "id": "Logo.png",
+          "name": "Logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 62222,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/Logo.png",
+            "MD5": "175cfff6973e9adc808f0988397bd777",
+            "path": "resources/ben/Logo.png"
+          }
+        },
+        {
+          "id": "indir.png",
+          "name": "indir.png",
+          "type": "File",
+          "artifact": {
+            "size": 678,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/indir.png",
+            "MD5": "d32baabab2d35088cfa984ad4d81f67d",
+            "path": "resources/ben/indir.png"
+          }
+        },
+        {
+          "id": "splashes.txt",
+          "name": "splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/splashes.txt",
+            "MD5": "c12e01f2a13ff5587e1e9e4aedb8242d",
+            "path": "resources/ben/splashes.txt"
+          }
+        },
+        {
+          "id": "Logo.png",
+          "name": "Logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 62222,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/cmm/Logo.png",
+            "MD5": "175cfff6973e9adc808f0988397bd777",
+            "path": "resources/cmm/Logo.png"
           }
         },
         {
@@ -344,10 +429,21 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 11688,
+            "size": 10375,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/servers.dat",
-            "MD5": "9dc1ec0c3748126eae65b2c85fa62328",
+            "MD5": "cb67d407eae2297a13bd4e4aa6567745",
             "path": "servers.dat"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "artifact": {
+            "size": 417,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/splash.properties",
+            "MD5": "f257614bb18265708b2ab0328d69cb84",
+            "path": "splash.properties"
           }
         }
       ]
