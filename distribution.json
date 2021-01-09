@@ -357,7 +357,7 @@
             "size": 5330,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/discordRPconfig.json",
             "MD5": "bfe64df392871dac87fb50ce13a6e9e3",
-            "path": "config/discordRPconfig.json"
+            "path": "mods/discordRPconfig.json"
           }
         },
         {
@@ -365,9 +365,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2442,
+            "size": 2317,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/options.txt",
-            "MD5": "6482d2e972e9296a7dfd580ff6b63464",
+            "MD5": "b0ff0c42655a80ad9d6beebc6bcba824",
             "path": "options.txt"
           }
         },
@@ -467,7 +467,7 @@
             "size": 417,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/splash.properties",
             "MD5": "f257614bb18265708b2ab0328d69cb84",
-            "path": "splash.properties"
+            "path": "config/splash.properties"
           }
         }
       ]
