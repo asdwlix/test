@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "3616324853bb2b635adccea1def54e53",
+                "MD5": "59c31485ded7f31203282c84b2814eb1",
                 "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -321,35 +321,24 @@
           ]
         },
         {
-          "id": "tfar.darkerloadingscreen:darkerloadingscreen:2.2@jar",
-          "name": "Darker Loading Screen",
+          "id": "net.optifine:optifine:1.16.4_HD_U_G5@jar",
+          "name": "OptiFine",
           "type": "ForgeMod",
           "artifact": {
-            "size": 9774,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/darkerloadingscreen-2.2.jar",
-            "MD5": "c9943a3bef3d9b6475ba868f1cf9f91b"
+            "size": 5770072,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G5.jar",
+            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea"
           }
         },
         {
-          "id": "darkerloadingscreen-2.2.jar",
-          "name": "darkerloadingscreen-2.2.jar",
+          "id": "OptiFine_1.16.4_HD_U_G5.jar",
+          "name": "OptiFine_1.16.4_HD_U_G5.jar",
           "type": "File",
           "artifact": {
-            "size": 9774,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/darkerloadingscreen-2.2.jar",
-            "MD5": "c9943a3bef3d9b6475ba868f1cf9f91b",
-            "path": "mods/darkerloadingscreen-2.2.jar"
-          }
-        },
-        {
-          "id": "sodium-fabric-mc1.16.3-0.1.0.jar",
-          "name": "sodium-fabric-mc1.16.3-0.1.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 418984,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/sodium-fabric-mc1.16.3-0.1.0.jar",
-            "MD5": "12fe6974813ae5d514af57c3ac679966",
-            "path": "mods/sodium-fabric-mc1.16.3-0.1.0.jar"
+            "size": 5770072,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/OptiFine_1.16.4_HD_U_G5.jar",
+            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea",
+            "path": "mods/OptiFine_1.16.4_HD_U_G5.jar"
           }
         }
       ]
